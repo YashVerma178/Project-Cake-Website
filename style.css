@@ -1,0 +1,206 @@
+/* body {
+    margin: 0;
+    padding: 0;
+
+}
+
+.navbar {
+    height: 55px;
+    width: 100%;
+    background-color: #fdede1;
+    border: none;
+    display: flex; */ 
+    /* justify-content: right;
+    padding-left: 1120px;
+
+}
+
+i {
+    color: red;
+    font-size: 20px;
+    padding: 10px;
+    margin-right: 10px;
+    margin-top: 5px;
+}
+i:hover {
+    color: darkred;
+}
+
+head {
+    display: flex;
+
+}
+
+h2 {
+    font-family: "patrick hand",'Segoe Print' , cursive;
+    font-weight: bold;
+    font-size: 30px;
+    margin-left: 100px ;
+    /* margin-right : 5px; 
+    color: rgb(106, 86, 86);
+    width: 400px;
+}
+
+.link{
+    display: flex;
+    /* justify-content: space-evenly; */
+    /* padding-left: 900px;
+    
+}
+
+.link a {
+    text-decoration: none;
+    font-size: 16px;
+    font-family: "Patrick Hand", cursive;
+    color: rgb(106, 86, 86);
+    padding-right: 25px;
+} 
+
+.link a:hover {
+    color: rgb(189, 189, 237);
+}
+
+button {
+    background-color: rgb(255, 8, 8);
+    border-radius: 0px 20px 0px 20px;
+}
+
+button a {
+    text-align: center;
+    margin-left: 10px;
+    padding-left: 12px;
+}
+
+button:hover {
+    background-color: darkred;
+    transition: 0.5s;   
+}
+
+.curve {
+    position: absolute;
+    width:100%;
+    height: 500px;
+    margin-top: 200px;
+    background: #f7d9e3;
+    background: linear-gradient(to top, #efced9 29%, #FFFFFF 100%);
+}
+
+.curve p {
+    font-family: "patrick hand",'Segoe Print' , cursive;
+    font-weight: bold;
+    font-size: 80px;
+    margin-top: 100px;
+    margin-left: 50px;
+    color: rgb(65, 43, 43);
+}
+
+.curve span {
+    margin-top: 100px;
+    margin-left: 150px;
+    color: rgb(65, 43, 43);
+    font-family: "Palatino Linotype";
+    font-size:20px ;
+} */ 
+
+
+html, body {
+    width: 100%;
+    overflow-x: hidden;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar {
+    height: 55px;
+    width: 100%;
+    background-color: #fdede1;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding-right: 40px;  
+}
+
+i {
+    color: rgb(211, 9, 9);
+    font-size: 20px;
+    padding: 10px;
+    margin-right: 10px;
+    margin-top: 5px;
+}
+i:hover {
+    color: darkred;
+}
+
+
+.head {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 100px;;
+    padding: 0 15px;
+}
+
+h2 {
+    font-family: "patrick hand",'Segoe Print' , cursive;
+    font-weight: bold;
+    font-size: 30px;
+    color: rgb(106, 86, 86);
+    display: flex;
+    align-items: center;
+}
+
+.link {
+    display: flex;
+    gap: 20px;
+}
+
+.link a {
+    text-decoration: none;
+    font-size: 20px;
+    font-family: "Patrick Hand", cursive;
+    color: rgb(106, 86, 86);
+}
+.link a:hover {
+    color: rgb(189, 189, 237);
+}
+
+button {
+    background-color: rgb(211, 9, 9);
+    border-radius: 0 20px 0 20px;
+    color: white;
+    padding: 3px 20px;
+    border: none;
+    cursor: pointer;
+    transition: 0.3s;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+button:hover {
+    background-color: darkred;
+}
+
+.curve {
+    position: absolute;
+    width: 100%;
+    height: 500px;
+    margin-top: 200px;
+    background: linear-gradient(to top, #f7dde6 29%, #FFFFFF 100%);
+}
+.curve p {
+    font-family: "patrick hand",'Segoe Print' , cursive;
+    font-weight: bold;
+    font-size: 70px;
+    margin-top: 60px;
+    margin-left: 100px;
+    color: rgb(65, 43, 43);
+
+}
+.curve span {
+    margin:1px;
+    margin-left: 180px;
+    color: rgb(65, 43, 43);
+    font-family: "Palatino Linotype";
+    font-size: 20px;
+}
+
